@@ -123,6 +123,20 @@ main{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/*sponsors*/
+.sponsors{
+    text-align: center;
+}
+.sponsor-image-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 40px;
+    align-items: center;
+}
+.sponsor-image-container img{
+    width: 165px;
+}
 
 
 /*responsive media*/
@@ -130,7 +144,7 @@ main{
     header{
         padding: 20px;
     }
-    nav, .feature-container{
+    nav, .feature-container, .facts-card-container, .sponsor-image-container{
         flex-direction: column;
     }
     .feature-image-container{
@@ -140,12 +154,15 @@ main{
         padding-left: 20px;
         padding-right: 20px;
     }
+    .facts-card-container{
+        gap: 20px;
+    }
 }
 @media screen and (min-width:577px) and (max-width:960px) {
     header{
         padding: 50px;
     }
-    nav, .feature-container{
+    nav, .feature-container, .sponsor-image-container{
         flex-direction: column;
     }
 }
