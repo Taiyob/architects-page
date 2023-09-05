@@ -100,6 +100,33 @@ main{
     font-weight: 700;
 }
 /*experience styles*/
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.features .card{
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0,0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.feature-contents .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+/*10 years badge*/
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    columns: #FFF;
+    width: 342px;
+    padding: 40px;
+}
+.ten-years-badge h3{
+    font-size: 4rem;
+}
 /*facts style*/
 .facts-card-container{
     display: flex;
